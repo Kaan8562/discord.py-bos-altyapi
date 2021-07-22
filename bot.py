@@ -21,4 +21,4 @@ async def on_ready():
 async def ping(ctx: commands.Context):
     await ctx.send(f"Pingim: {round(bot.latency * 1000)}ms")
 
-bot.run("ODI4Njg2NjI1MjYwMzA2NTEy.YGtMjw.xq-8bf3Xx7GONB4iBbRU_1TYoqA")
+bot.run("buraya tokeninizi girin")
