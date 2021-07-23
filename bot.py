@@ -8,12 +8,10 @@ bot = commands.Bot(command_prefix=prefix)
 print("Lütfen bekleyiniz...")
 
 @bot.event
-async def on_ready():
-    print('-------------------------')     
+async def on_ready():     
     print("Bot aktif!")
     print("Bot ismi: "  + bot.user.name)
     print("Bot ID'si: " + str(bot.user.id))
-    print('-------------------------')
 
 @bot.command(name="ping")
 async def ping(ctx: commands.Context):
